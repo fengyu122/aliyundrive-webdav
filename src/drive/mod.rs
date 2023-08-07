@@ -336,7 +336,7 @@ impl AliyunDrive {
             )
             .await
             .and_then(|res| res.context("expect response"))?;
-        Ok(res.default_drive_id)
+        Ok(res.resource_drive_id)
     }
 
     pub async fn get_file(&self, file_id: &str) -> Result<Option<AliyunFile>> {
