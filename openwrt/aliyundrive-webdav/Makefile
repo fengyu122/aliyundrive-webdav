@@ -23,7 +23,7 @@ ifeq ($(ARCH),i386)
 endif
 
 PKG_SOURCE:=aliyundrive-webdav-v$(PKG_VERSION).$(PKG_ARCH)-unknown-linux-$(PKG_LIBC).tar.gz
-PKG_SOURCE_URL:=https://github.com/messense/fengyu122/releases/download/v$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://github.com/fengyu122/aliyundrive-webdav/releases/download/v$(PKG_VERSION)/
 PKG_HASH:=skip
 
 include $(INCLUDE_DIR)/package.mk
